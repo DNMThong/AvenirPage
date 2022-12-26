@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 16px;
+}
+
+.slider {
+    background-image: url("../image/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.slider__name-shop {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 12px;
+}
+
+.h-l {
+    height: 432px;
+}
+
+.h-s {
+    height: 288px;
+}
+
+.product {
+    width: 1140px;
+    margin: 0 auto;
+    transform: translateY(-112px);
+}
+
+.product__image img {
+    width: 100%;
+    height: 100%;
+    object-position: 50% 0;
+    object-fit: cover;
+}
+
+.about {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 32px;
+}
+
+.about__heading {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.about__separator {
+    width: 120px;
+    height: 3px;
+    background: #454545;
+}
+
+.about__content {
+    line-height: 1.6;
+}
+
+.about__btn {
+    margin-top: 32px;
+    padding: 16px 40px;
+    background-color: transparent;
+    border: 2px solid #454545;
+    color: #454545;
+}
+
+.about__btn:hover {
+    color: #fff;
+    background-color: #454545;
+    cursor: pointer;
+}
+
+.sponsor {
+    width: 800px;
+    margin: 100px auto 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sponsor__img {
+    flex: 0 0 20%;
+    width: 20%;
+}
+
+.sponsor__img img{
+    width: 100%;
+}
+
+.contract {
+    background-color: #000;
+    color: #fff;
+    padding: 80px 250px;
+}
+
+.contract__left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contract__heading {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.contract__icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.contract__link {
+    text-decoration: none;
+}
+
+.contract__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contract__input {
+    background-color: transparent;
+    padding: 12px 10px;
+    border: 1px solid #fff;
+    caret-color: #fff;
+    font-size: 16px;
+    transition: all linear 0.3;
+}
+
+.contract__btn {
+    width: 170px;
+    height: 42px;
+    cursor: pointer;
+    background-color: #fdee30;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: #333;
+}
+
+.footer__content {
+    color: #fff;
+}
+
+.footer__author{
+    color: #fdee30;
+}
